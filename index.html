@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/8a057c8fa7.js" crossorigin="anonymous"></script>
+    <title>Google Translate</title>
+</head>
+<body>
+    <div id="header">
+        <div class="fas fa-home" id="menu"></div>
+        <img src="https://1000logos.net/wp-content/uploads/2020/05/Google-Translate-Logo.png"/>
+        
+        <div id= "leftHeader">
+             
+            <img src="https://i.ibb.co/VMtyNxv/XRJe-POW-400x400-modified.png"/>
+        </div>
+    </div>
+    <div id="translator">
+        <div>
+            <select name="language" id="cLanguage" onchange="convert()">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="ar">Arabic</option>
+                <option value="zh">Chinese</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="id">Indonesian</option>
+                <option value="ga">Irish</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="pl">Polish</option>
+                <option value="pt">Portugese</option>
+                <option value="ru">Russian</option>
+                <option value="es">Spanish</option>
+                <option value="tr">Turkish</option>
+                <option value="vi">Vietnamese</option>
+            </select>
+            <textarea id="iLanguage" cols="69" rows="10" oninput="debounce(convert,1000)" placeholder="Enter text"></textarea>
+            <i onclick="recognition.start()" class="fas fa-microphone"></i>
+        </div>
+        <div>
+            <select name="language" id="oLanguage" onchange="convert()">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="ar">Arabic</option>
+                <option value="zh">Chinese</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="id">Indonesian</option>
+                <option value="ga">Irish</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="pl">Polish</option>
+                <option value="pt">Portugese</option>
+                <option value="ru">Russian</option>
+                <option value="es">Spanish</option>
+                <option value="tr">Turkish</option>
+                <option value="vi">Vietnamese</option>
+            </select>
+            <textarea id="conLanguage" cols="69" rows="10" placeholder="Converted Text"></textarea>
+            <i onclick="speak()" class="fas fa-volume-up"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="index.js"></script>
