@@ -1,20 +1,34 @@
+# Google Translater
 
-#   Google_Translater
- You can translate text,in over 100 languages with the Google Translate app. You can also use Translate on the web.
- 
+Google Translater is a simple command-line tool that allows you to translate text using the Google Translate API. With this tool, you can easily translate text from one language to another by providing the input text and selecting the source and target languages.
 
-## About
-In many cases, students may be able to improve their understanding of a language, as well as pronunciation. Also, because it can translate entire documents and websites, Google Translate gives teachers a fast and easy tool for communication, not only with students but also with parents and the greater school community.
- 
+## Features
 
-## Team Member
-Devesh Verma
-## Introduction
-Our task was to implement our HTML, CSS, Advanced JavaScript google Api etc  knowledge which we had learned at Masai. We used this skillset to build a static copy of Google_Translater applicaton along with the responsiveness of the page for different screen sizes and some user interactivity with Advanced JS.
- 
-## Some snapshots of our cloned website…
-### Home
-![Screenshot (382)](https://i.ibb.co/WHjRmW0/Google-Translate.jpg)
- 
-# Go To Website
- https://google-translater.vercel.app/
+- Translate text from one language to another using the Google Translate API.
+- Supports a wide range of languages for translation.
+- Easy-to-use command-line interface.
+- Lightweight and minimal dependencies.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dev-deveshverma/Google_Translater.git
+
+ ##  Disclaimer
+Google Translater is a third-party tool and is not affiliated with or endorsed by Google. Usage of this tool is subject to the terms and conditions set by Google for the Google Cloud Translation API.
+
+Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## Contact
+If you have any questions or inquiries about this project, you can reach out to the project maintainer:
+
+## Name: Dev Verma
+GitHub: dev-deveshverma
+Feel free to contact me with any questions or feedback.
+
+## Acknowledgments
+This project utilizes the Google Cloud Translation API for text translation.
+Thanks to the developers of the Google Cloud Python Client library for providing a convenient interface to the Google Cloud Translation API.
